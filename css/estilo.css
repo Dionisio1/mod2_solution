@@ -1,0 +1,143 @@
+
+*{
+	box-sizing: border-box;
+}
+
+/*-----SEÇÃO-----*/
+.linha{
+	width: 100%;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-12{
+		/*border: 1px solid black;*/
+				
+		}
+
+.box{
+	background-color: gray;
+	border: 1px solid black;
+	width: 90%;
+	height: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	}
+
+#boxsuchi{
+	background-color: gray;
+	border: 1px solid black;
+	width: 95%;
+	height: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	}
+
+#galinha{
+	/*TITULO GALINHA*/
+	background-color: pink;
+	border: 1px solid black;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	float: right;
+	margin-bottom: 15px;
+	}
+
+#bife{
+	background-color: red;
+	border: 1px solid black;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+#suchi{
+	background-color: yellow;
+	border: 1px solid black;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+.paragrafo{
+	
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 15px;
+
+
+}
+p{
+	padding-top: 30px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+header
+	{
+		font-size: 10px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	
+
+	@media (min-width:992px) 
+	{
+	.col-lg-4
+		{
+		float: left;
+		/*border: 1px solid black;*/
+		}
+		.col-lg-4{
+		width: 33%;
+
+		}
+	}
+
+	@media (min-width:768px) and (max-width:991px)
+	{
+	.col-lg-6
+		{
+		float: left;
+		/*border: 1px solid black;*/
+		}
+		.col-lg-6{
+		width: 50%;
+		
+		}
+	.col-lg-12{
+		float: left;
+		}
+		.col-lg-12{
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		}
+		
+	}
+
+	@media (max-width: 767px)
+	{
+	.col-lg-12
+		{
+		/*border: 1px solid black;*/
+		float: left;
+
+		}
+		.col-lg-12{
+		width: 100%;
+		
+		}
+	}
+

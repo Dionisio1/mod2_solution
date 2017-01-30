@@ -1,2 +1,2 @@
 # mod2_solution
-Coursera
+Cursera modulo 2
